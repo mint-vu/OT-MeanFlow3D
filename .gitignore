@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Compiled CUDA / C++ extensions
+*.so
+*.o
+
+# Datasets (download separately, see README)
+data/
+downloads/
+GenReData/
+
+# Checkpoints and outputs written by the scripts (run from shape_gen/)
+*.pth
+*.pt
+shape_gen/latent_gen_models/
+shape_gen/pointnet_models/
+shape_gen/SN_*_pointnet_AE_output_*/
+shape_gen/OT_*/
+shape_gen/MeanFlow_*/
+shape_gen/ShapeNet_*_generaion_plot_points/
